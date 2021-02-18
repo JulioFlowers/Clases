@@ -78,10 +78,5 @@ console.log(typeof datos)
 var bañar = function bañar(perro){conole.log("voy a bañar a " + perro + " que es mi perro fav")}
 console.log(typeof bañar)
 
-/*Ahora veamos sobre los operadores, lo operadores son un tipo de funciones
-predesarrolladas para el lenguaje que permiten manipular el valor de las variables,
-realizar operaciones matemáticas con sus valores y comparar diferentes variables.
-De esta forma, los operadores permiten a los programas realizar cálculos complejos 
-y tomar decisiones lógicas en función de comparaciones y otros tipos de condiciones, 
-veamoslos con algunos ejemplos y ya usando lo que tenemos de objetos*/
+
 
