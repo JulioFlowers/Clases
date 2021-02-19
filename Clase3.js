@@ -101,3 +101,21 @@ retornar valores no booleanos dependiendo de la comparacion que se le haga
   
   clima(Temp, Humd)
 
+
+  /*
+     !false = True 
+     !true = False   
+  */
+
+ function clima2(temp, humd){
+    var soleado = (temp === "l" || humd==="h"? "esta lloviendo" : "no esta lloviendo" )
+    console.log(soleado)
+}
+
+console.log("describe las variables climatologicas")
+console.log("escribe h si la temp esta High y l si la presion esta Low")
+var Temp= Prompt("")
+var Humd= Prompt("")
+
+clima2(Temp, Humd)
+
