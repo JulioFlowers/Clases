@@ -9,8 +9,8 @@ const Prompt = require('prompt-sync')()
      !false = True 
      !true = False   
   */
-/*
- function clima2(temp, humd){
+
+  function clima2(temp, humd){
     var soleado = (temp === "l" || humd==="h"? "esta lloviendo" : "no esta lloviendo" )
     console.log(soleado)
 }
@@ -21,17 +21,22 @@ var Temp= Prompt("")
 var Humd= Prompt("")
 
 clima2(Temp, Humd)
-*/
+
+//Hay que tener cuidado al enviar datos no booleanos a los operadores logicos
 
 var animales = "gatos" && "perros" // suelta gatos
 
 console.log(animales)
 
+//cualquier cosa no booleana en el operador ! sera false
 var helado = !"vainilla";
 console.log(helado)
 
-/*false && anything : False
-  true  || anything: True*/
+/* consecuencias de la logica
+false && anything : False
+true  || anything: True*/
+
+//Operadores de concatenacion + y +=
 
 var helado2 = "Napolitano "
 
@@ -46,12 +51,12 @@ console.log("Me gusta el helado de ", helado2+=b)
 /*Operador Unario.
 Se aplica normalmente a objetos y son solo de un operando
 
-delete borra un propiedad del objeto
+delete borra una propiedad del objeto
 
 delete object.property
 delete object.[propertyKey]
 delete objectName[index]
-delete property (declaracion with) */
+delete property (solo en declaracion with) */
 
 console.log('')
 var licvaleriano = {nombre:"Lic. Valeriano", edad: 113, casado:false, trabaja:"Luis Vuitton" }
