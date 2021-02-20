@@ -24,7 +24,7 @@ clima2(Temp, Humd)
 
 //Hay que tener cuidado al enviar datos no booleanos a los operadores logicos
 
-var animales = "gatos" && "perros" // suelta gatos
+var animales = "gatos" && "perros" // suelta perros
 
 console.log(animales)
 
@@ -93,18 +93,19 @@ sea leido como undefined
 
 var desayuno = "Jugo de Naranja con huevitos rancheros"
 console.log("este es un ejemplo de void", void(desayuno))
+console.log(desayuno)
 
 /*operadores relaciones 
 
 compara sus operandos y devuleve un valor booleano 
 si la compacion es verdadera.
 
-in: devuelve ture si la propiedad especifica esta en el 
-objeto especioco. eg
+in: devuelve true si la propiedad especifica esta en el 
+objeto especifico. eg
 
 */
 
-var especias= [Canela, Pimienta, Albahaca, Tomillo, Oregano, Comino, Azafran]
+var especias= ["Canela", "Pimienta", "Albahaca", "Tomillo", "Oregano", "Comino", "Azafran"]
 
 if(4 in especias) 
 console.log("felicitaciones tu Array tiene al menos 5 elementos")
@@ -125,7 +126,7 @@ console.log("No pues eso que compro y el cafe de Starbucks es lo mismo, wakala."
 /* la libreria math de JS esta incorporada como parte nativa del sistema
  y no es necesaria importarla veamos si PI esta dentro de la libreria.*/
 
- if(PI in Math) 
+ if('PI' in Math) 
  console.log ("Bravo, PI no se escapo de Math")
  else console.log ("Llamen a la poli del aritmetica se escapo PI de Math")
 
@@ -136,8 +137,8 @@ console.log("No pues eso que compro y el cafe de Starbucks es lo mismo, wakala."
  else console.log("Cafe no es un objeto")
 
  /*Expresiones 
- 
- 
  */
+
+ var fecha = new Date(2021, 02, )
 
 
