@@ -139,6 +139,8 @@ console.log("No pues eso que compro y el cafe de Starbucks es lo mismo, wakala."
  /*Expresiones 
  */
 
- var fecha = new Date(2021, 02, )
+ var fecha = new Date(2021,1,19)
+
+ console.log(fecha)
 
 
