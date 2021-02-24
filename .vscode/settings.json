@@ -1,0 +1,30 @@
+{
+    "editor.tokenColorCustomizations": {
+     
+       "[Bluloco Light Italic]": {
+           
+        "textMateRules": [
+
+            {
+                "scope": "comment.line",
+                "settings": {
+                    "foreground": "#776c80"
+                }
+            },
+            {
+                "scope": "comment.block",
+                "settings": {
+                    "foreground": "#776c80"
+                }
+            },
+            {
+                "scope": "comment.block.documentation",
+                "settings": {
+                    "foreground": "#776c80"
+                }
+            }
+        ]
+           
+       }
+    }
+}
