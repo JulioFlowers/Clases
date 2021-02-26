@@ -27,7 +27,6 @@ function opbasicas (a,b) {
 console.log("La el residuo de la division  de las entradas es: ", a%b)
 }
 
-let d = 1;
 
 /* En JS no nada mas tenemos 1 forma de declarar, en particular tenemos 3
 
@@ -204,8 +203,13 @@ do
     sentencia(s)
 } while (condicion);
 
+ veamos ejemplos. */
+
+let d = 1;
+
 /* While hace instantaneo los cambios y por eso usamos una variable auxiliar 
 de asignacion*/
+
 while(d===1){
 
     console.log("Bienvenidos al sumatron automatizado 2.0")
