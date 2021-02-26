@@ -186,7 +186,9 @@ let date = new Date(...Datearray)
 
 console.log(date)
 
-//finalmente podemos anidar funciones dentro de funciones eg.
+/*aqui podemos ver un ejemplo de como trabajar con los parametros 
+de una funcion, en este caso se evalua si los parametros son 
+los adecuados para poder desarrollar el contenido de la funcion. */
 
 function data(a1, a2, a3){
 
@@ -211,6 +213,9 @@ let a2 = Prompt("Lugar de origen: ")
 let a3 = Prompt("edad: ") 
 
 data(a1, a2, a3)
+
+
+//finalmente podemos anidar funciones.
 
 function anidacion(e){
 
