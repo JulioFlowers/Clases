@@ -220,7 +220,9 @@ data(a1, a2, a3)
 function anidacion(e){
 
     function registro(n, d, r){
-        let register = Math.random()*600000
+        let register = Math.random()*600000 
+        // genera un numero pseudoaleatorio entre 0 y 1 y lo multiplica por 600'000
+        
         console.log("Su registro es : " + Math.round(register) + "\n"
         + "Su nombre es: " + n + "\n" + "Residiendo en: " + d + "\n"
         + "Tipo sanguineo: " + r +".")
